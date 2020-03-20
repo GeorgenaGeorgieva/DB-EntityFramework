@@ -1,8 +1,10 @@
-﻿using System;
-using System.Data.SqlClient;
 
-namespace _1._Initial_Setup
+
+namespace InitialSetup
 {
+    using System;
+    using System.Data.SqlClient;
+    
     class StartUp
     {
         private static string connectionString =
