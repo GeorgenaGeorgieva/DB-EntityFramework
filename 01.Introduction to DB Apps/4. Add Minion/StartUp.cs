@@ -1,12 +1,12 @@
-﻿using System;
-using System.Data.SqlClient;
-
-namespace _4._Add_Minion
+namespace AddMinion
 {
+    using System;
+    using System.Data.SqlClient;
+    
     class StartUp
     {
         private static string connectionString =
-            "Server=GEORGENA-PC\\SQLEXPRESS;" +
+            "Server=.;" +
             "Database=MinionsDB;" +
             "Integrated Security=true";
 
