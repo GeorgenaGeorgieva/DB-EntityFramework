@@ -6,7 +6,7 @@ namespace InitialSetup
     class StartUp
     {
         private static string connectionString =
-            "Server=GEORGENA-PC\\SQLEXPRESS;" +
+            "Server=.;" +
             "Database={0};" +
             "Integrated Security=true";
 
