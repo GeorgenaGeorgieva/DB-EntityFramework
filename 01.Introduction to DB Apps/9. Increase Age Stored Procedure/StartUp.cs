@@ -1,13 +1,13 @@
-﻿using System;
-using System.Data.SqlClient;
-using System.Linq;
-
-namespace _9._Increase_Age_Stored_Procedure
+namespace IncreaseAgeStoredProcedure
 {
+    using System;
+    using System.Data.SqlClient;
+    using System.Linq;
+
     class StartUp
     {
         private static string connectionString = "" +
-            "Server=GEORGENA-PC\\SQLEXPRESS;" +
+            "Server=.;" +
             "Database=MinionsDB;" +
             "Integrated Security=true;";
 
