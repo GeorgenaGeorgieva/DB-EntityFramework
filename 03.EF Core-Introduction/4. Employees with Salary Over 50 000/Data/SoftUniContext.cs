@@ -1,8 +1,8 @@
-﻿using SoftUni.Models;
-using Microsoft.EntityFrameworkCore;
-
 namespace SoftUni.Data
 {
+    using SoftUni.Models;
+    using Microsoft.EntityFrameworkCore;
+    
     public partial class SoftUniContext : DbContext
     {
         public SoftUniContext()
