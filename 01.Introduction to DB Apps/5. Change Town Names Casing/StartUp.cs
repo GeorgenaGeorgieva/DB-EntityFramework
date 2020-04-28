@@ -1,13 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.SqlClient;
-
-namespace _5._Change_Town_Names_Casing
+namespace ChangeTownNamesCasing
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Data.SqlClient;
+    
     class StartUp
     {
         private static string stringConnection =
-            "Server=GEORGENA-PC\\SQLEXPRESS;" +
+            "Server=.;" +
             "Database=MinionsDB;" +
             "Integrated Security=true;";
 

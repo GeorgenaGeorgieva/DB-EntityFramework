@@ -1,13 +1,13 @@
-﻿using System;
-using System.Data.SqlClient;
-using System.Linq;
-
-namespace _8._Increase_Minion_Age
+namespace IncreaseMinionAge
 {
+    using System;
+    using System.Data.SqlClient;
+    using System.Linq;
+
     class StartUp
     {
         private static string connectionString = "" +
-            "Server=GEORGENA-PC\\SQLEXPRESS;" +
+            "Server=.;" +
             "Database=MinionsDB;" +
             "Integrated Security=true;";
 
