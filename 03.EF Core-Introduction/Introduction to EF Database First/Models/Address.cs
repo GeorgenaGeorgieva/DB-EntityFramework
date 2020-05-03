@@ -1,8 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-
 namespace SoftUni.Models
 {
+    using System;
+    using System.Collections.Generic;
+    
     public partial class Address
     {
         public Address()
